@@ -8,7 +8,7 @@ function listIceCreamFlavors () {
     let ulElement = document.createElement("ul");
 
     h1Element.after(ulElement);
-
+<p></p>
     flavors.forEach(function(flavor) {
         let liElement = document.createElement("li");
         liElement.append(flavor);
